@@ -1,0 +1,64 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4295 3105 4585 3105
+Wire Wire Line
+	4295 3205 4585 3205
+Wire Wire Line
+	4295 3305 4585 3305
+NoConn ~ 4295 3405
+Wire Wire Line
+	4295 3005 4295 2905
+Wire Wire Line
+	4295 2905 3645 2910
+Wire Wire Line
+	3645 2910 3645 3610
+Wire Wire Line
+	3645 3610 4395 3610
+Wire Wire Line
+	4500 3405 4585 3405
+Wire Wire Line
+	4395 3505 4500 3505
+Wire Wire Line
+	4395 3505 4395 3610
+Wire Wire Line
+	4500 3505 4500 3405
+Connection ~ 4395 3505
+Wire Wire Line
+	4295 3505 4395 3505
+$Comp
+L lmh18_daughter-rescue:Conn_01x04-Connector_Generic J1
+U 1 1 5D579BB6
+P 4785 3305
+F 0 "J1" H 4865 3297 50  0000 L CNN
+F 1 "Conn_01x04" H 4865 3206 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4785 3305 50  0001 C CNN
+F 3 "~" H 4785 3305 50  0001 C CNN
+	1    4785 3305
+	1    0    0    1   
+$EndComp
+$Comp
+L lmh18_daughter-rescue:Molex-0548190519-random-keyboard-parts USB1
+U 1 1 5D5CAA08
+P 3995 3305
+F 0 "USB1" V 4532 3272 60  0000 C CNN
+F 1 "Molex-0548190519" V 4426 3272 60  0000 C CNN
+F 2 "Keebio-Parts:USB-Mini-B_2leg" H 3995 3305 60  0001 C CNN
+F 3 "" H 3995 3305 60  0001 C CNN
+	1    3995 3305
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
